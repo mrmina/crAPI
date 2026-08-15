@@ -188,7 +188,7 @@ if __name__ == "__main__":
         ),
     ]
 
-    app = mcp.streamable_http_app(middleware=middleware)
+    app = mcp.http_app(middleware=middleware, transport="streamable-http")
     uvicorn.run(
         app,
         host="0.0.0.0",
