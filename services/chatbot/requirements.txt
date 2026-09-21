@@ -22,6 +22,7 @@ motor==3.7.1
 faiss-cpu==1.12.0
 psycopg2-binary==2.9.11
 uvicorn==0.38.0
+anyio==4.14.2  # transitive dep of httpx (via langchain-core), pinned to fix CVE-2026-64847
 langchain-aws
 langchain-google-vertexai
 langchain-anthropic
