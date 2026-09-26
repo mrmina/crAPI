@@ -29,3 +29,4 @@ langchain-anthropic
 langchain-groq
 langchain-mistralai
 langchain-cohere
+idna==3.15  # transitive dep of idna@3.9.0, pinned for GHSA-65pc-fj4g-8rjx, CVE-2026-45409
