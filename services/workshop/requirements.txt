@@ -25,3 +25,4 @@ unittest-xml-reporting==3.2.0
 black==24.4.2
 xhtml2pdf==0.2.17
 Pillow==12.3.0 #transitive dep of xhtml2pdf, pinned to fix CVE-2023-50447
+pypdf==6.16.1  # transitive dep of pypdf@6.9.2, pinned for GHSA-248m-82v9-q6g6, CVE-2026-48156
