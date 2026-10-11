@@ -29,3 +29,4 @@ langchain-anthropic
 langchain-groq
 langchain-mistralai
 langchain-cohere
+pypdf==6.19.0  # transitive dep of pypdf@6.9.2, pinned for GHSA-5xf7-4p34-54qr, CVE-2026-59936 and 62 more
